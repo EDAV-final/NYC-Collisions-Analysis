@@ -3,6 +3,8 @@ Date: December 2019
 
 Authors: Yaoyi Wang, Qiang Zhao, Wangzhi Li and Weixi Yao
 
+NOTE: This repo is for webpage showing; for the original data and file, please refer to [this repo](https://github.com/SafeguardLi/EDAV_final_car_collisions) 
+
 ## About This Repo
 
 This repo contains all the codes and html files that related to this project. Since the original data is oversize, we only provide links here.
