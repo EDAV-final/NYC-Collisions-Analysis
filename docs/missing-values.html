@@ -10,18 +10,18 @@
 
   <meta property="og:title" content="Chapter 4 Missing values | NYC Motor Vehicle Collisions" />
   <meta property="og:type" content="book" />
-
-
-
-
+  
+  
+  
+  
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 4 Missing values | NYC Motor Vehicle Collisions" />
+  
+  
+  
 
-
-
-
-<meta name="author" content="Mike Yao-Yi Wang. Qiang Zhao, Wangzhi Li, and Weixi Yao" />
+<meta name="author" content="Mike Yao-Yi Wang, Qiang Zhao, Wangzhi Li, and Weixi Yao" />
 
 
 <meta name="date" content="2019-12-12" />
@@ -29,8 +29,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-
+  
+  
 <link rel="prev" href="data-transformation.html"/>
 <link rel="next" href="results.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
@@ -50,14 +50,6 @@
 
 
 
-<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
-<link href="libs/dygraphs-1.1.1/dygraph.css" rel="stylesheet" />
-<script src="libs/dygraphs-1.1.1/dygraph-combined.js"></script>
-<script src="libs/dygraphs-1.1.1/shapes.js"></script>
-<script src="libs/moment-2.8.4/moment.js"></script>
-<script src="libs/moment-timezone-0.2.5/moment-timezone-with-data.js"></script>
-<script src="libs/moment-fquarter-1.0.0/moment-fquarter.min.js"></script>
-<script src="libs/dygraphs-binding-1.1.1.6/dygraphs.js"></script>
 
 
 
@@ -143,7 +135,7 @@
 <h1><span class="header-section-number">Chapter 4</span> Missing values</h1>
 <div id="motor_vehicle_collisions---crashes" class="section level2">
 <h2><span class="header-section-number">4.1</span> Motor_Vehicle_Collisions - Crashes</h2>
-<p><img src="https://raw.githubusercontent.com/EDAV-final/NYC-Collisions-Analysis/master/docs/_main_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><img src="NYCcollisions_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <div id="column-pattern" class="section level3">
 <h3><span class="header-section-number">4.1.1</span> Column pattern</h3>
 <p>Two types of variables have a noticeably large number of missing values:</p>
@@ -174,7 +166,6 @@
 <p>The first pattern makes sense because these two variables are just representations of one single item in two different aspects. Therefore, when one of those two variables goes missing, it is almost 100% predictable that the other goes missing, for possibly the same reasons.</p>
 <p>The second pattern makes sense as well because it is very rare for a single collision incident to have numerous contributing factors.</p>
 <p>To tackle these missing value patterns as well as to make our analysis less distracted, we mainly focus on the contributing factor vehicle 1 and vehicle type code 1 in our analysis as the “main” contributing factors.</p>
-<p>```</p>
 
 </div>
 </div>
